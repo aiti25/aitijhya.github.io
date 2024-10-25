@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - First Year Software Engineer</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script defer src="main.js"></script>
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+
+    <!-- Navigation -->
+    <header class="bg-red-600 text-white p-4">
+        <nav class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">My Portfolio</h1>
+            <ul class="flex space-x-4">
+                <li><a href="#about" class="hover:underline">About Me</a></li>
+                <li><a href="#projects" class="hover:underline">Projects</a></li>
+                <li><a href="#skills" class="hover:underline">Skills</a></li>
+                <li><a href="#contact" class="hover:underline">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="text-center py-16 bg-blue-500 text-white">
+        <h2 class="text-4xl font-bold mb-4">Hello, I'm a Software Engineering Student</h2>
+        <img src="images/myphoto.jpg" alt="My Photo" class="w-32 h-32 rounded-full mx-auto mb-4">
+        <p class="text-lg">Passionate about coding, learning new skills, and building projects.</p>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="container mx-auto py-12 px-4">
+        <h2 class="text-3xl font-semibold mb-4">About Me</h2>
+        <p class="text-lg">I'm a first-year software engineering student with a keen interest in programming, software development, and technology. I am currently learning  Python and web development and am excited to apply my knowledge in real-world projects.Seeking opportunities to enhance my technical skills and contribute to projects that challenge my abilities and promote professional growth.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="container mx-auto py-12 px-4 bg-gray-200">
+        <h2 class="text-3xl font-semibold mb-4">Projects</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div class="bg-white p-4 rounded-lg shadow-md">
+                <h3 class="text-xl font-bold">Project 1</h3>
+                <p class="text-gray-700">Distance measurer with the help of arduino. </p>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow-md">
+                <h3 class="text-xl font-bold">Project 2</h3>
+                <p class="text-gray-700">Traffic light signal with the help of arduino</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="container mx-auto py-12 px-4">
+        <h2 class="text-3xl font-semibold mb-4">Skills</h2>
+        <ul class="list-disc pl-6 text-lg">
+            <li>Arduino (Basic)</li>
+            <li>Photography</li>
+            <li>Python (beginner)</li>
+            <li>Windows (OS)</li>
+        </ul>
+        <h3 class="text-2xl font-semibold mt-6">Languages</h3>
+    <ul class="list-disc pl-6 text-lg">
+        <li>English</li>
+        <li>Hindi</li>
+        <li>Bengali</li>
+    </ul>
+    </section>
+<!-- Awards and Achievements Section -->
+<section id="awards" class="container mx-auto py-12 px-4">
+    <h2 class="text-3xl font-semibold mb-4">Awards and Achievements</h2>
+    <ul class="list-disc pl-6 text-lg">
+        <li>Get 3rd place in Lensified photography competition</li>
+
+    </ul>
+</section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container mx-auto py-12 px-4 bg-gray-200">
+        <h2 class="text-3xl font-semibold mb-4">Contact Me</h2>
+        <form id="contactForm" class="space-y-4">
+            <input type="text" id="Your name" placeholder="Your name" class="w-full p-2 border border-gray-300 rounded" required>
+            <input type="email" id="email" placeholder="Your Email" class="w-full p-2 border border-gray-300 rounded" required>
+            <textarea id="message" placeholder="Your Message" class="w-full p-2 border border-gray-300 rounded" required></textarea>
+            <button type="submit" class="bg-blue-600 text-white p-2 rounded">Send Message</button>
+        </form>
+        <div class="mt-6">
+            <h3 class="text-2xl font-semibold">My Contact Information:</h3>
+            <p>Email: <a href="mailto:your.email@example.com" class="text-blue-600 hover:underline">baidyaaitijhya@gmail.com</a></p>
+            <p>Phone: <a href="tel:+1234567890" class="text-blue-600 hover:underline">+91 7364098040</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank" class="text-blue-600 hover:underline">https://www.linkedin.com/in/aitijhya-baidya-687504269/</a></p>
+
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 text-white text-center p-4">
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
